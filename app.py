@@ -55,6 +55,7 @@ st.markdown("""
 def download_nltk_data():
     try:
         nltk.download('punkt', quiet=True)
+        nltk.download('punkt_tab', quiet=True)
         nltk.download('stopwords', quiet=True)
         nltk.download('wordnet', quiet=True)
         return True
@@ -297,11 +298,20 @@ def main():
         
         if input_method == "Use example texts":
             example_texts = {
-                "Depression": "I've been feeling really sad and hopeless lately. Nothing seems to bring me joy anymore and I just want to stay in bed all day.",
+                "Depression": (
+                    "I've been feeling really sad and hopeless lately. Nothing seems to bring me joy anymore and I just want to stay in bed all day. "
+                    "I struggle to find motivation for even the simplest tasks, and my energy levels are always low. "
+                    "Sometimes I feel empty inside and have trouble concentrating. I often feel worthless and guilty about not being able to do more. "
+                    "Sleep is difficult, and I wake up feeling tired no matter how long I rest."
+                ),
                 "Anxiety": "My heart races and I can't breathe properly when I'm in crowded places. I'm constantly worried about having a panic attack.",
                 "Normal": "I feel great today! The weather is beautiful and I'm excited about my new project at work. Life is good.",
                 "Stress": "I feel overwhelmed with work and can't seem to manage my stress levels. Everything feels too much.",
-                "Insomnia": "I've been having trouble sleeping for weeks now. I just can't seem to get a good night's rest no matter what I try."
+                "Insomnia": (
+                    "I've been having trouble sleeping for weeks now. I just can't seem to get a good night's rest no matter what I try. "
+                    "I lie awake for hours, my mind racing with thoughts, and when I finally fall asleep, I wake up repeatedly throughout the night. "
+                    "During the day, I feel exhausted and unable to focus. My mood is affected and I feel irritable because of the lack of sleep."
+                )
             }
             
             selected_example = st.selectbox("Choose an example:", list(example_texts.keys()))
