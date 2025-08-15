@@ -9,7 +9,6 @@ wordcloud
 xgboost
 streamlit
 plotly
-pickle5
 jupyter
 notebook
 ipykernel
