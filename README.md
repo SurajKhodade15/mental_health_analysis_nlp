@@ -318,7 +318,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Suraj Khodade**
 - GitHub: [@SurajKhodade15](https://github.com/SurajKhodade15)
-- LinkedIn: [Connect with me](https://linkedin.com/in/surajkhodade15)
+- LinkedIn: [Connect with me](https://linkedin.com/in/surajkhodade)
 
 ## 🙏 Acknowledgments
 
