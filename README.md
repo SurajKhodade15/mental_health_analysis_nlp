@@ -6,13 +6,36 @@ A comprehensive machine learning project that analyzes mental health conditions 
 ![Python](https://img.shields.io/badge/Python-3.8+-green)
 ![Machine Learning](https://img.shields.io/badge/ML-NLP-orange)
 ![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)
+![Accuracy](https://img.shields.io/badge/Best%20Model-75.41%25-brightgreen)
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
+## 🚀 Live Demo
+Try the live Streamlit app: **[Mental Health Text Analyzer](https://surajkhodade15-mental-health-analysis-nlp-app-kqgh9g.streamlit.app/)**
+
+## � Project Results
+
+### Mental Health Conditions Distribution
+![Mental Health Distribution](plots/mental_health_distribution.png)
+
+### Model Performance Comparison
+![Model Comparison](plots/model_comparison.png)
+
+*Best performing model: **Logistic Regression** with **75.41%** accuracy*
+
+### Text Statistics Analysis
+![Text Statistics](plots/text_statistics_by_status.png)
+
+## �📋 Table of Contents
+- [🎯 Overview](#-overview)
+- [✨ Features](#-features)
+- [🛠 Installation](#-installation)
+- [🚀 Usage](#-usage)
+- [📊 Visualizations](#-visualizations)
+- [🏗 Project Structure](#-project-structure)
+- [🤖 Model Performance](#-model-performance)
+- [📈 Results](#-results)
+- [🔮 Future Enhancements](#-future-enhancements)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 - [Models and Methodology](#models-and-methodology)
 - [Results](#results)
 - [Streamlit App](#streamlit-app)
